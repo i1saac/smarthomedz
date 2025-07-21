@@ -40,25 +40,3 @@ Connexion : Utilisez frontend/connexion.php pour vous connecter.
 Explorer les produits : Accédez à frontend/products.php pour voir les produits disponibles ou en ajouter (pour les magasins).
 Personnaliser un design : Sur frontend/design.php, soumettez une description de design pour recevoir des conseils.
 Gérer votre profil : Consultez vos réservations et favoris dans frontend/profile.php.
-
-Structure du projet
-smart-home-dz/
-├── backend/                   # Scripts PHP backend
-│   ├── auth.php              # Gestion de l'authentification
-│   ├── config.example.php    # Exemple de configuration de la base de données
-│   ├── design.php            # Gestion des soumissions de design
-│   ├── products.php          # Gestion des produits
-│   ├── reservations.php      # Gestion des réservations
-├── frontend/                  # Pages web accessibles aux utilisateurs
-│   ├── connexion.php         # Page de connexion
-│   ├── design.php            # Page pour les designs personnalisés
-│   ├── index.php             # Page d'accueil
-│   ├── inscription.php       # Page d'inscription
-│   ├── products.php          # Page pour explorer/acheter des produits
-│   ├── profile.php           # Page de profil utilisateur
-│   ├── services.php          # Page des services
-├── database/                  # Scripts SQL
-│   ├── create_database.sql   # Script pour créer la base de données
-├── .gitignore                # Fichiers à ignorer (ex. config.php)
-├── README.md                 # Ce fichier
-------------------------------------
